@@ -1,7 +1,7 @@
 <div align="center">
   <h1 style="font-size:24px;">【Preview of Obsidian】</h1>
-  <img src="../../Media/obsidian_preview.png">
-<img src="../../Media/custom_callouts.png" height=300px>
+  <img src="../Media/obsidian_preview.png">
+<img src="../Media/custom_callouts.png" height=300px>
 </div>
 
 <div>
