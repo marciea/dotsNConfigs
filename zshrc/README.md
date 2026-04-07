@@ -1,5 +1,6 @@
 <div>
   <h1 align=center style="font-size:24px;">【Preview of zshrc】</h1>
+  <img src="../Media/zshrc_preview.gif" >
 </div>
 
 > [!IMPORTANT]
@@ -30,9 +31,11 @@
 </div>
 
 >[!NOTE]
-> The `.zshrc` file contains plugin list already pre-configured, you just need to clone the repository to your host/device.
+> The `.zshrc` file contains a plugin list already pre-configured, you just need to clone the respective repository to your host/device.
 
 - Install [ohmyzsh](https://ohmyz.sh/#install)
 - Clone the [Fast syntax highlighting Github repo](https://github.com/zdharma-continuum/fast-syntax-highlighting?tab=readme-ov-file#oh-my-zsh)
 - Clone the [Zsh auto suggestions Github repo](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh)
+1. Take the contents of the `.zshrc` file and paste it into your own.
+2. Execute `source ~/.zshrc` to load all configurations added.
 

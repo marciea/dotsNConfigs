@@ -3,6 +3,9 @@
   <img src="../Media/kitty_config.gif">
 </div>
 
+>![WARNING]
+> Check the main README as a issue concerning a theme used here may cause a road bump for your setup.
+
 <div>
 
 <h2 style="font-size:22px;">This configuration includes:</h2>

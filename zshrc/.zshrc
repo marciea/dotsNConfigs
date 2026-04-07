@@ -23,10 +23,13 @@ export ZSH_COMPDUMP=$ZSH/cache/.zcompdump-$HOST
 HIST_STAMPS="mm/dd/yyyy"
 # Looks like:  401  3/5/2026 14:55  nvim .zshrc
 
-### alias MacOS DNS flushing ### 
+### Aliases ###
+# Macos DNS flusher
 alias flush-dns="sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder"
 
+# Copy current path
 alias copypath="pwd | pbcopy"
+
 ### Functions ###
 
 # Config editor
@@ -58,7 +61,7 @@ function config() {
   "${EDITOR:-vi}" "$dir"
 }
 
-### Obsidian CLI (Unofficial, useful in conjunction with Lazyvim) ###
+# Obsidian CLI (Unofficial, useful in conjunction with Lazyvim)
 function ob() {
   local dir
   # Find all Obsidian vaults in likely locations, sort by most recently modified
@@ -77,12 +80,12 @@ function ob() {
 function mann() {
   [[ $# -eq 0 ]] && { echo "usage: mann <man-topic>"; return 1; }
 
-  man "$@" | col -bx | bat -l man --style=plain
+  man "$@" | col -bx | bat -l man --style=-numbers
 }
 
-# Quick cheatsheet
+# Quick cheatsheet + bat tool paging
 function cht() {
-  curl cht.sh/"$1"
+  curl cht.sh/"$1" | bat --style=-numbers
 }Tools like fzf and bat are needed for custom functions included in the
 
 source $ZSH/oh-my-zsh.sh
