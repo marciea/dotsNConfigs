@@ -1,0 +1,7 @@
+/* === TIME === */
+/* The purpose of this callout is for time periods */ 
+.callout[data-callout^="time"] {
+    --callout-icon: lucide-clock;
+    --callout-color: 93, 168, 34;
+    background-color: rgba(93, 168, 34, 0.2);
+}

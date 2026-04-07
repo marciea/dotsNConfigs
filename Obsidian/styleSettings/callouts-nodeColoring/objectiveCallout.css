@@ -1,0 +1,6 @@
+/* === OBJECTIVE === */
+.callout[data-callout^="objective"] {
+    --callout-color: 189, 147, 249;
+    --callout-icon: lucide-target;
+    background-color: rgba(189, 147, 249, 0.2);
+}

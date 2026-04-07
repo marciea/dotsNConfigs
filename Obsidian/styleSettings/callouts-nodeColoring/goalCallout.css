@@ -1,0 +1,7 @@
+/* === GOAL === */
+/* The purpose of this callout is for time periods */ 
+.callout[data-callout^="goal"] {
+    --callout-color: 255, 174, 59;
+    --callout-icon: lucide-goal;
+    background-color: rgba(255, 174, 59, 0.2);
+}

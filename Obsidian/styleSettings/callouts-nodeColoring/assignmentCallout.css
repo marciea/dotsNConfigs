@@ -1,0 +1,6 @@
+/* === ASSIGNMENT === */
+.callout[data-callout^="assignment"] {
+    --callout-color: 255, 121, 198;
+    --callout-icon: lucide-clipboard-list;
+    background-color: rgba(255, 121, 198, 0.2);
+}

@@ -1,0 +1,6 @@
+/* === STRUCTURE === */
+.callout[data-callout^="structure"] {
+    --callout-color: 131, 231, 255;
+    --callout-icon: lucide-layers;
+    background-color: rgba(131, 231, 255, 0.2);
+}
