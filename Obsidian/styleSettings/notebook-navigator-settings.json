@@ -1,0 +1,99 @@
+{
+  "vaultProfiles": [
+    {
+      "id": "default",
+      "name": "Default",
+      "fileVisibility": "supported",
+      "propertyKeys": [],
+      "hiddenFolders": [],
+      "hiddenTags": [],
+      "hiddenFileNames": [],
+      "hiddenFileTags": [],
+      "hiddenFileProperties": [],
+      "navigationBanner": "Media/Images/Breach_listening_party_promo_pic.webp",
+      "periodicNotesFolder": "",
+      "shortcuts": [],
+      "navRainbow": {
+        "mode": "none",
+        "balanceHueLuminance": true,
+        "separateThemeColors": false,
+        "shortcuts": {
+          "enabled": false,
+          "firstColor": "#ef4444",
+          "lastColor": "#8b5cf6",
+          "darkFirstColor": "#ef4444",
+          "darkLastColor": "#8b5cf6",
+          "transitionStyle": "rgb"
+        },
+        "recent": {
+          "enabled": false,
+          "firstColor": "#ef4444",
+          "lastColor": "#8b5cf6",
+          "darkFirstColor": "#ef4444",
+          "darkLastColor": "#8b5cf6",
+          "transitionStyle": "rgb"
+        },
+        "folders": {
+          "enabled": true,
+          "firstColor": "#ef4444",
+          "lastColor": "#8b5cf6",
+          "darkFirstColor": "#fb7185",
+          "darkLastColor": "#c084fc",
+          "transitionStyle": "hue",
+          "scope": "root"
+        },
+        "tags": {
+          "enabled": false,
+          "firstColor": "#ef4444",
+          "lastColor": "#8b5cf6",
+          "darkFirstColor": "#fb7185",
+          "darkLastColor": "#c084fc",
+          "transitionStyle": "hue",
+          "scope": "root"
+        },
+        "properties": {
+          "enabled": false,
+          "firstColor": "#ef4444",
+          "lastColor": "#8b5cf6",
+          "darkFirstColor": "#fb7185",
+          "darkLastColor": "#c084fc",
+          "transitionStyle": "hue",
+          "scope": "root"
+        }
+      }
+    }
+  ],
+  "syncModes": {
+    "vaultProfile": "local",
+    "tagSortOrder": "local",
+    "includeDescendantNotes": "local",
+    "dualPane": "local",
+    "dualPaneOrientation": "local",
+    "paneTransitionDuration": "local",
+    "toolbarVisibility": "local",
+    "navIndent": "local",
+    "navItemHeight": "local",
+    "navItemHeightScaleText": "local",
+    "calendarWeeksToShow": "local",
+    "compactItemHeight": "local",
+    "compactItemHeightScaleText": "local",
+    "uiScale": "local"
+  },
+  "toolbarVisibility": {
+    "navigation": {
+      "calendar": false,
+      "hiddenItems": false
+    },
+    "list": {
+      "sort": false,
+      "appearance": false
+    }
+  },
+  "pinNavigationBanner": false,
+  "showIndentGuides": true,
+  "showShortcuts": false,
+  "defaultListMode": "compact",
+  "defaultFolderSort": "created-desc",
+  "showFileTagAncestors": true,
+  "lastShownVersion": "2.5.6"
+}
