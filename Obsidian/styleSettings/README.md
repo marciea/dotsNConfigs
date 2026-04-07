@@ -51,8 +51,9 @@ To get close/exact look of this Obsidian vault the following must be set:
 ```
 
 ---
-1. Under community plugins tab in settings select *Style Settings* -> select  *Import* -> and paste in the JSON from `Style-settings.json`
-2. Under community plugins tab in settings select *Notebook Navigator* -> select *General* -> *Advanced* -> *Import* and paste in the JSON from `notebook-navigator-settings.json`
+1. Under community plugins tab in settings select *Style Settings* -> select  *Import* -> and paste in the JSON from `Style-settings.json`.
+2. Under community plugins tab in settings select *Notebook Navigator* -> select *General* -> *Advanced* -> *Import* and paste in the JSON from `notebook-navigator-settings.json`.
+3. Take the files from the `callouts-nodeColoring` directory, in settings -> *Appearance* -> *CSS Snippets* -> *Open snippets folder* and move them there -> Enable all snippets.
 </div>
 
 <footer>
